@@ -31,13 +31,8 @@ html {
 .contact-input:focus {
     border-color: #6366F1;
     outline: none;
-}
-
-/* Mobile Navigation */
-@media (max-width: 768px) {
-    .nav-links {
-        display: none;
-    }
+    outline: 2px solid #6366F1;
+    outline-offset: 2px;
 }
 
 /* Animations */
