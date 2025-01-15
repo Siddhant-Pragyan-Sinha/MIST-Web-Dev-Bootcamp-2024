@@ -3,8 +3,8 @@ html {
 }
 
 .hero-section {
-    background: url('../Week-1/Media/aditya-sharma-dual-knives-assassin.jpeg') no-repeat center/contain,
-                url('../Week-1/Media/fuji_mountain_black_hd_black_aesthetic.jpg') no-repeat center/cover;
+    background: url('../Week-1/media/aditya-sharma-dual-knives-assassin.jpeg') no-repeat center/contain,
+                url('../Week-1/media/fuji_mountain_black_hd_black_aesthetic.jpg') no-repeat center/cover;
     height: 100vh;
     display: flex;
     align-items: center;
