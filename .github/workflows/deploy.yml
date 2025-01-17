@@ -7,13 +7,13 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Checkout Code
-      uses: actions/checkout@v3  # Updated version
+      uses: actions/checkout@v3
     - name: Clean Repository
       run: |
         git reset --hard
         git clean -fdx
     - name: Deploy
-      uses: JamesIves/github-pages-deploy-action@4.4.0  # Updated version
+      uses: JamesIves/github-pages-deploy-action@4.1.4  # Correct version
       with:
         branch: main
         folder: Week-1
