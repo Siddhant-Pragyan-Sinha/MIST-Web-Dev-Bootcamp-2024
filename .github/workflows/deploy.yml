@@ -15,5 +15,5 @@ jobs:
     - name: Deploy
       uses: JamesIves/github-pages-deploy-action@4.1.4  # Correct version
       with:
-        branch: main
+        branch: gh-pages
         folder: Week-1
